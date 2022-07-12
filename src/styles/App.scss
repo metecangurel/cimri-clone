@@ -1,0 +1,19 @@
+$brand-color: #4a90e2;
+$secondary-color: #3ab424;
+$main-font: 'Open Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+html, body {
+    font-family: $main-font;
+}
+
+.container {
+    margin: 0px auto;
+    position: relative;
+    min-width: 960px;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
