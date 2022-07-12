@@ -14,6 +14,7 @@ const Menu = styled.a`
   font-size: 13px;
   font-weight: 600;
   line-height: 29px;
+  cursor: pointer;
 
   color: ${props => props.active ? "#4a90e2" : "#848689"};
 
@@ -34,10 +35,10 @@ const Menu = styled.a`
 
 function TopHeader() {
   return (
-   <div>
-    <Navbar>
-      <Menu active>cimri</Menu>
-      <Menu secondary>cimri markette</Menu>
+   <div className="border-bottom">
+    <Navbar className="container">
+      <Menu href='/' active>cimri</Menu>
+      <Menu href='/' secondary>cimri markette</Menu>
     </Navbar>
    </div>
   )

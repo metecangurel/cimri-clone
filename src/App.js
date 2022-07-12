@@ -15,7 +15,7 @@ import './styles/App.css'
 
 function App() {
   return (
-    <div className="container App">
+    <div className="App">
       <TopHeader/>
       <MainHeader/>
       <MenuHeader/>
