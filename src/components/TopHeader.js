@@ -1,6 +1,11 @@
 import styled from 'styled-components'
 import '../styles/App.css'
 
+const Wrapper = styled.nav`
+  margin-bottom: 15px;
+  border-bottom: 1px solid #f1f1f1;
+`;
+
 const Navbar = styled.nav`
   background-color: #fff;
   display: flex;
@@ -35,12 +40,14 @@ const Menu = styled.a`
 
 function TopHeader() {
   return (
-   <div className="border-bottom">
-    <Navbar className="container">
-      <Menu href='/' active>cimri</Menu>
-      <Menu href='/' secondary>cimri markette</Menu>
-    </Navbar>
-   </div>
+   <Wrapper>
+    <div className="container">
+      <Navbar className="row">
+        <Menu href='/' active>cimri</Menu>
+        <Menu href='/' secondary>cimri markette</Menu>
+      </Navbar>
+    </div>
+   </Wrapper>
   )
 }
 
