@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import '../styles/App.css'
 
-const Wrapper = styled.nav`
+const Wrapper = styled.div`
   margin-bottom: 15px;
   border-bottom: 1px solid #f1f1f1;
 `;
@@ -42,7 +42,7 @@ function TopHeader() {
   return (
    <Wrapper>
     <div className="container">
-      <Navbar className="row">
+      <Navbar>
         <Menu href='/' active>cimri</Menu>
         <Menu href='/' secondary>cimri markette</Menu>
       </Navbar>
