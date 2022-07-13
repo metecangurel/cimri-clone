@@ -1,5 +1,6 @@
-import styled from 'styled-components'
 import Search from './Search'
+import MenuIcon from './MenuIcon'
+import MenuText from './MenuText'
 import '../styles/App.css'
 
 function MainHeader() {
@@ -13,8 +14,24 @@ function MainHeader() {
         </div>
         <div className="col-5">
           <Search/>
+          <div className="menu-text d-flex justify-content-between">
+            <MenuText link="/" title="Klima"/>
+            <MenuText link="/" title="Kamp Sandalyesi"/>
+            <MenuText link="/" title="Vantilatör"/>
+            <MenuText link="/" title="iPhone 13"/>
+            <MenuText link="/" title="iPhone 11"/>
+            <MenuText link="/" title="Airpods"/>
+          </div>
         </div>
-        <div className="col-5"></div>
+        <div className="col-5">
+          <div className="d-flex align-items-center">
+            <MenuIcon image={require('../images/brochure.svg')} title="Broşürler" link="/hey" />
+            <MenuIcon image={require('../images/discount.svg')} title="Fiyatı Düşenler" link="/hey" />
+            <MenuIcon image={require('../images/currency.svg')} title="Günün Fırsatları" link="/hey" />
+            <MenuIcon image={require('../images/benefit.svg')} title="Kuponlar" link="/hey" />
+            <MenuIcon image={require('../images/profile.svg')} title="Hesabım" link="/hey" />
+          </div>
+        </div>
       </div>
     </div>
   )
