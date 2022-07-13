@@ -6,6 +6,9 @@ const Item = styled.a`
     font-size: 10px;
     font-weight: 600;
     line-height: 21px;
+    &:hover {
+        color: #9b9b9b;
+    }
 `;
 
 function MenuText(props) {

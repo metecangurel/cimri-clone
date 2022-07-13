@@ -3,6 +3,8 @@ import MenuIcon from './MenuIcon'
 import MenuText from './MenuText'
 import '../styles/App.css'
 
+const textMenu = [ "Klima", "Kamp Sandalyesi", "Vantilatör", "iPhone 13", "iPhone 11", "Airpods" ]
+
 function MainHeader() {
   return (
     <div className="container">
@@ -15,12 +17,9 @@ function MainHeader() {
         <div className="col-5">
           <Search/>
           <div className="menu-text d-flex justify-content-between">
-            <MenuText link="/" title="Klima"/>
-            <MenuText link="/" title="Kamp Sandalyesi"/>
-            <MenuText link="/" title="Vantilatör"/>
-            <MenuText link="/" title="iPhone 13"/>
-            <MenuText link="/" title="iPhone 11"/>
-            <MenuText link="/" title="Airpods"/>
+            {textMenu.map((text, index) => {
+              return <MenuText link="/" key={index} title={text} />
+            })}
           </div>
         </div>
         <div className="col-5">

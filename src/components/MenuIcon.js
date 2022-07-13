@@ -15,7 +15,7 @@ const Icon = styled.div`
 `;
 
 const Title = styled.div`
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     text-align: center;
     color: rgb(62, 66, 69);
