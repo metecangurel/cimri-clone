@@ -20,8 +20,8 @@ function MenuHeader() {
     <div className="border-bottom">
       <div className="container">
         <MenuWrapper>
-          {MenuArray.map((item, index) => {
-            return <MenuItem key={index} title={item} link="/" />
+          {MenuArray.map((item) => {
+            return <MenuItem title={item} link="/" />
           })}
         </MenuWrapper>
       </div>

@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+const Item = styled.li`
+    display: block;
+`;
+
 const Link = styled.a`
     font-size: 12px;
     height: 76px;
@@ -16,6 +20,7 @@ const Link = styled.a`
     max-width: 90px;
     text-transform: uppercase;
     position: relative;
+    cursor: pointer;
 
     &:after {
         content: '';
@@ -41,11 +46,11 @@ const Link = styled.a`
 
 function MenuItem(props) {
   return (
-    <li>
-        <Link href={props.link} title={props.title}>
+    <Item>
+        <Link href={props.link} title={props.title} itemID={props.id}>
             {props.title}
         </Link>
-    </li>
+    </Item>
   )
 }
 
