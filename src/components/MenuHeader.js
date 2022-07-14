@@ -17,7 +17,7 @@ const MenuArray = ["Elektronik, Cep Telefonu", "Ev, Yaşam, Ofis, Kırtasiye",
 
 function MenuHeader() {
   return (
-    <div className="border-bottom">
+    <div className="bg-white border-bottom">
       <div className="container">
         <MenuWrapper>
           {MenuArray.map((item) => {

@@ -4,6 +4,7 @@ html, body {
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F1F5F8;
 }
 
 .container {

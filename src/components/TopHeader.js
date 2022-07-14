@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import '../styles/App.css'
 
 const Wrapper = styled.div`
-  margin-bottom: 15px;
   border-bottom: 1px solid #f1f1f1;
 `;
 
@@ -40,7 +39,7 @@ const Menu = styled.a`
 
 function TopHeader() {
   return (
-   <Wrapper>
+   <Wrapper className='bg-white'>
     <div className="container">
       <Navbar>
         <Menu href='/' active>cimri</Menu>

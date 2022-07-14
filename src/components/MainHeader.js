@@ -7,7 +7,7 @@ const textMenu = [ "Klima", "Kamp Sandalyesi", "Vantilatör", "iPhone 13", "iPho
 
 function MainHeader() {
   return (
-    <div className="border-bottom">
+    <div className="border-bottom bg-white pt-3">
       <div className="container">
         <div className="row">
           <div className="col-2 d-flex justify-content-center align-items-center">
