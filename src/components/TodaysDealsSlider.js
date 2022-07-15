@@ -5,6 +5,7 @@ import TodaysDealsSlideItem from './TodaysDealsSlideItem';
 import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/effect-flip";
+import "../styles/TodaysDealsSlider.css";
 
 const dataArray = [
   {
@@ -35,7 +36,7 @@ const dataArray = [
 
 function TodaysDealsSlider() {
   return (
-    <Swiper id="hero-slider" className="rounded"
+    <Swiper className="rounded"
       modules={[Navigation, Autoplay, EffectFlip]}
       navigation
       loop={true}

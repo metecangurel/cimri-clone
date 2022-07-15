@@ -1,0 +1,4 @@
+:is(.swiper-button-prev, .swiper-button-next)::after {
+    font-size: 18px;
+    font-weight: 900;
+}

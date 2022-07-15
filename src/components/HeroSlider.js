@@ -5,6 +5,7 @@ import HeroSlideItem from './HeroSlideItem';
 import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "../styles/HeroSlider.css";
 
 function HeroSlider() {
   return (

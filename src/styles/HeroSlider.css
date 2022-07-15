@@ -1,4 +1,4 @@
-:is(.swiper-button-next, .swiper-button-prev) {
+#hero-slider :is(.swiper-button-next, .swiper-button-prev) {
     color: #fff;
     background-color: rgba(0, 0, 0, .3);
     border-radius: 50%;
@@ -6,7 +6,7 @@
     opacity: 0;
 }
 
-:is(.swiper-button-next, .swiper-button-prev):hover {
+#hero-slider :is(.swiper-button-next, .swiper-button-prev):hover {
     background-color: rgba(0, 0, 0, .8)
 }
 
@@ -14,23 +14,23 @@
     opacity: 1;
 }
 
-.swiper-button-prev {
+#hero-slider .swiper-button-prev {
     left: 0;
     margin-left: -60px;
     padding: 40px 20px 40px 70px;
 }
 
-.swiper-button-next {
+#hero-slider .swiper-button-next {
     right: 0;
     margin-right: -60px;
     padding: 40px 70px 40px 20px;
 }
 
-:is(.swiper-button-prev, .swiper-button-next)::after {
+#hero-slider :is(.swiper-button-prev, .swiper-button-next)::after {
     font-size: 16px;
 }
 
-.swiper-pagination-bullet {
+#hero-slider .swiper-pagination-bullet {
     background: none;
     border: 1px solid rgba(255, 255, 255, 0.5);
     opacity: 1;
@@ -38,7 +38,7 @@
     height: 10px;
 }
 
-.swiper-pagination-bullet-active {
+#hero-slider .swiper-pagination-bullet-active {
     background-color: #4a90e2;
     border-color: #4a90e2;
 }
