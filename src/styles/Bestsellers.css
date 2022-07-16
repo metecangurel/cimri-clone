@@ -1,0 +1,27 @@
+#bestseller-slider :is(.swiper-button-next, .swiper-button-prev) {
+    color: #777;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    font-size: 10px;
+}
+
+#bestseller-slider :is(.swiper-button-next, .swiper-button-prev)::after {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+#bestseller-slider .swiper-button-next {
+    right: 0;
+    top: 40%;
+    margin-right: -60px;
+    padding: 30px 67px 30px 15px;
+}
+
+#bestseller-slider .swiper-button-prev {
+    left: 0;
+    top: 40%;
+    margin-left: -60px;
+    padding: 30px 15px 30px 67px;
+}

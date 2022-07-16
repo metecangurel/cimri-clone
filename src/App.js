@@ -3,7 +3,7 @@ import MainHeader from './components/MainHeader'
 import MenuHeader from './components/MenuHeader'
 import HeroSection from './components/HeroSection'
 import Brands from './components/Brands'
-import Bestseller from './components/Bestseller'
+import Bestsellers from './components/Bestsellers'
 import Products from './components/Products'
 import Banner from './components/Banner'
 import Categories from './components/Categories'
@@ -21,7 +21,7 @@ function App() {
       <MenuHeader/>
       <HeroSection/>
       <Brands/>
-      <Bestseller/>
+      <Bestsellers/>
       <Products/>
       <Banner/>
       <Categories/>
