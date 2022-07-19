@@ -5,8 +5,6 @@ import HeroSection from './components/HeroSection'
 import Brands from './components/Brands'
 import Bestsellers from './components/Bestsellers'
 import Products from './components/Products'
-import Banner from './components/Banner'
-import Categories from './components/Categories'
 import Footer from './components/Footer'
 
 
@@ -23,8 +21,6 @@ function App() {
       <Brands/>
       <Bestsellers/>
       <Products/>
-      <Banner/>
-      <Categories/>
       <Footer/>
     </div>
   );
