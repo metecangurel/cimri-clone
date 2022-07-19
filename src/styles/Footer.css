@@ -1,0 +1,31 @@
+.footer-text {
+    color: #848689;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.footer-text a {
+    color: inherit;
+    font-weight: 600;
+}
+
+.footer-end .social-icons a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.footer-end .follow-us {
+    color: #cccccc;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer-end .social-icons {
+    margin-bottom: 20px;
+}
+
+.mobile-app-links a {
+    margin-left: 5px;
+}
