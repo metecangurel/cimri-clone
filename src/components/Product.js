@@ -1,16 +1,16 @@
-import styled from "styled-components"
 import Button from "./Button";
+import styled from "styled-components"
 
 const Wrapper = styled.div`
     background-color: #fff;
     max-width: 240px;
     border-radius: 4px;
     position: relative;
-    margin-right: 24px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
+    transition: box-shadow .35s ease-in-out;
 
-    :nth-child(5n) {
-        margin-right: 0;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
     }
 `;
 
@@ -112,13 +112,58 @@ const Offer = styled.div`
         font-weight: bold;
         cursor: pointer;
     }
+`;
 
+const Buttons = styled.div`
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    button {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+`;
+
+const Favourite = styled.span`
+    width: 35px;
+    height: 35px;
+    position: relative;
+    z-index: 9999;
+    display: block;
+    background: url(https://cdn.cimri.io/web-images/heart_empty.png);
+    background-size: cover;
+    cursor: pointer;
+`;
+
+const Alarm = styled.span`
+    width: 35px;
+    height: 35px;
+    position: relative;
+    z-index: 9999;
+    display: block;
+    background: url(https://cdn.cimri.io/web-images/bell_empty.png);
+    background-size: cover;
+    cursor: pointer;
 `;
 
 function Product(props) {
   return (
     <Wrapper>
         <article>
+            <Buttons>
+                <div>
+                    <button>
+                        <Favourite/>
+                    </button>
+                </div>
+                <div>
+                    <button>
+                        <Alarm/>
+                    </button>
+                </div>
+            </Buttons>
             <Link href={props.link} title={props.title}></Link>
             <ImageWrapper>
                 <img src={props.image} alt={props.title} />
