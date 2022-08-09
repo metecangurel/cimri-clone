@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img alt="Cimri logo" src="https://iconape.com/wp-content/files/lp/336928/svg/336928.svg" height="150px" width="150px" />
+	<img alt="Cimri logo" src="https://www.freelogovectors.net/wp-content/uploads/2022/06/cimri-logo-freelogovectors.net_.png" width="255" height="84"/>
 </h1>
 
 <h3 align="center">
