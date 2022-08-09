@@ -24,7 +24,7 @@ Technologies that I used to develop this frontend app
 
 ## 👀 Demo
 
-- [Cimri Clone Netlify][https://cimri-clone.netlify.app/]
+- [Cimri Clone Demo in Netlify](https://cimri-clone.netlify.app/)
 
 ## 💻 Getting started
 
