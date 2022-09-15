@@ -20,7 +20,7 @@ Technologies that I used to develop this frontend app
 
 - [ReactJS](https://nodejs.org/en)
 - [Styled-Components](https://styled-components.com)
-- [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [VS Code](https://code.visualstudio.com)
 
 ## 👀 Demo
 
