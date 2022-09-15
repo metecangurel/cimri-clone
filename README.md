@@ -18,7 +18,7 @@
 
 Technologies that I used to develop this frontend app
 
-- [ReactJS](https://nodejs.org/en)
+- [ReactJS](https://reactjs.org/)
 - [Styled-Components](https://styled-components.com)
 - [VS Code](https://code.visualstudio.com)
 
